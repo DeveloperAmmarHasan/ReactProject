@@ -12,10 +12,13 @@
     "check": "biome check --write --verbose"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.9.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-icons": "^5.5.0",
-    "react-qr-code": "^2.0.18"
+    "react-qr-code": "^2.0.18",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.9.1"
   },
   "devDependencies": {
     "@biomejs/biome": "2.0.6",

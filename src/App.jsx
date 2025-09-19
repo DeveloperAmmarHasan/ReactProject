@@ -1,3 +1,5 @@
+import { Provider } from "react-redux";
+import { store } from "./components/TodoReduxToolkit/app/store.js";
 import "./App.css";
 import Accordian from "./components/accordian";
 import ImageSlider from "./components/image-slider";
@@ -21,6 +23,14 @@ import UseOnClickOutsideTest from "./components/use-click-outside/test.jsx";
 import UseWindowResizeTest from "./components/use-window-size/test.jsx";
 import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom/index.jsx";
 import ScrollToSection from "./components/scroll-to-section/index.jsx";
+import Counter from "./components/counter/Counter.jsx";
+import BgChanger from "./components/BgChanger/App.jsx";
+import PasswordGenerator from "./components/Password-generator/PasswordGenerator.jsx";
+import CurrencyConvertor from "./components/CurrencyConvertor/CurrencyConvertor.jsx";
+import RouterApply from "./components/Router/RouterApply.jsx";
+import TodoContext from "./components/TodoContextApi/TodoContextApp.jsx";
+import TodoContextApp from "./components/TodoContextApi/TodoContextApp.jsx";
+import TodoReduxTookit from "./components/TodoReduxToolkit/TodoReduxTookit.jsx";
 
 const App = () => {
   return (
@@ -48,7 +58,16 @@ const App = () => {
       {/* <UseOnClickOutsideTest /> */}
       {/* <UseWindowResizeTest /> */}
       {/* <ScrollToTopAndBottom /> */}
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+      {/* <Counter /> */}
+      {/* <BgChanger /> */}
+      {/* <PasswordGenerator /> */}
+      {/* <CurrencyConvertor /> */}
+      {/* <RouterApply /> */}
+      {/* <TodoContextApp /> */}
+      <Provider store={store}>
+        <TodoReduxTookit />
+      </Provider>
     </div>
   );
 };

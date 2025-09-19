@@ -1,36 +1,28 @@
-# Rsbuild project
+# ReactProject
 
-## Setup
+A collection of **React components and custom hooks**, each organized in its own folder inside `src/components/`. This structure makes the project modular, reusable, and easy to extend.
 
-Install the dependencies:
+---
 
-```bash
-pnpm install
-```
+## Folders in `src/components/`
 
-## Get started
-
-Start the dev server, and the app will be available at [http://localhost:3000](http://localhost:3000).
-
-```bash
-pnpm dev
-```
-
-Build the app for production:
-
-```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
-```
-
-## Learn more
-
-To learn more about Rsbuild, check out the following resources:
-
-- [Rsbuild documentation](https://rsbuild.rs) - explore Rsbuild features and APIs.
-- [Rsbuild GitHub repository](https://github.com/web-infra-dev/rsbuild) - your feedback and contributions are welcome!
+* **accordian** → Expandable/collapsible content sections.
+* **custom-modal-popup** → Reusable modal popup component.
+* **custom-tabs** → Tabbed interface for switching content.
+* **feature-flags** → Feature flag system with context support.
+* **github-profile-finder** → Search and display GitHub user profiles.
+* **image-slider** → Image carousel/slider component.
+* **light-dark-mode** → Toggle between light and dark themes.
+* **load-more-data** → Load more functionality for lists or feeds.
+* **qr-code-generator** → Generates QR codes from text or URLs.
+* **random-color** → Generates random colors dynamically.
+* **scroll-indicator** → Shows page scroll progress.
+* **scroll-to-section** → Scroll smoothly to a specific section.
+* **scroll-to-top-and-bottom** → Buttons for scrolling to top or bottom.
+* **search-autocomplete-with-api** → Input with API-powered autocomplete.
+* **star\_rating** → Interactive star rating system.
+* **tic-tac-toe** → Simple tic-tac-toe game.
+* **tree-view** → Collapsible tree structure for nested data.
+* **use-click-outside** → Hook to detect clicks outside an element.
+* **use-fetch** → Custom hook for data fetching.
+* **use-window-size** → Hook to track window dimensions.

@@ -161,6 +161,6 @@ pnpm preview
 
 ## License
 
-⚠️ No license specified.
-(Recommendation: Add **MIT** license for open-source use.)
+This project is licensed under the [MIT License](./LICENSE).
+
 
